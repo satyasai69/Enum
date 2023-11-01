@@ -23,4 +23,8 @@ contract enums {
     function Reject() public {
         status = Status.Rejected;
     }
+    //reset status
+    function reset() public {
+        delete status;
+    }
 }
